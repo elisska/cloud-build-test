@@ -1,0 +1,37 @@
+[
+  {
+    "name": "timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "payloadString",
+    "type": "STRING"
+  },
+  {
+    "name": "payloadBytes",
+    "type": "BYTES"
+  },
+  {
+    "name": "attributes",
+    "type": "RECORD",
+    "mode": "REPEATED",
+    "fields": [
+      {
+        "name": "key",
+        "type": "STRING"
+      },
+      {
+        "name": "value",
+        "type": "STRING"
+      }
+    ]
+  },
+  {
+    "name": "errorMessage",
+    "type": "STRING"
+  },
+  {
+    "name": "stacktrace",
+    "type": "STRING"
+  }
+]

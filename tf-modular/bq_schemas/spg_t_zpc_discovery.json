@@ -1,0 +1,279 @@
+[
+  {
+    "name": "_c",
+    "type": "STRING"
+  },
+  {
+    "name": "_o",
+    "type": "STRING"
+  },
+  {
+    "name": "_e",
+    "type": "STRING"
+  },
+  {
+    "name": "_id",
+    "type": "INT64"
+  },
+  {
+    "name": "_et",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "_mt",
+    "type": "STRING"
+  },
+  {
+    "name": "_p",
+    "type": "RECORD",
+    "fields":[
+      {
+        "name": "server_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "addresses",
+        "type": "STRING",
+        "mode": "REPEATED"
+      },
+      {
+        "name": "unique_id",
+        "type": "STRING"
+      },
+      {
+        "name": "domain",
+        "type": "STRING"
+      },
+      {
+        "name": "model",
+        "type": "STRING"
+      },
+      {
+        "name": "timestamp_inc",
+        "type": "INT64"
+      },
+      {
+        "name": "tenant",
+        "type": "STRING"
+      },
+      {
+        "name": "weblink_zebra_connector_version",
+        "type": "STRING"
+      },
+      {
+        "name": "discovery",
+        "type": "RECORD",
+        "fields": [
+          {
+            "name": "WARNINGS",
+            "type": "STRING"
+          },
+          {
+            "name": "SUBNET_MASK",
+            "type": "STRING"
+          },
+          {
+            "name": "ERRORS",
+            "type": "STRING"
+          },
+          {
+            "name": "DEVICE_UNIQUE_ID",
+            "type": "STRING"
+          },
+          {
+            "name": "SYSTEM_NAME",
+            "type": "STRING"
+          },
+          {
+            "name": "PORT_NUMBER",
+            "type": "STRING"
+          },
+          {
+            "name": "HARDWARE_ADDRESS",
+            "type": "STRING"
+          },
+          {
+            "name": "ODOMETER_TOTAL_LABEL_COUNT",
+            "type": "STRING"
+          },
+          {
+            "name": "JSON_PORT_NUMBER",
+            "type": "STRING"
+          },
+          {
+            "name": "AVAILABLE_LANGUAGES",
+            "type": "STRING"
+          },
+          {
+            "name": "ZBI_MAJOR_VER",
+            "type": "STRING"
+          },
+          {
+            "name": "USING_NET_PROTOCOL",
+            "type": "STRING"
+          },
+          {
+            "name": "DATE_CODE",
+            "type": "STRING"
+          },
+          {
+            "name": "GATEWAY",
+            "type": "STRING"
+          },
+          {
+            "name": "PRINTER_MEDIA_TYPE",
+            "type": "STRING"
+          },
+          {
+            "name": "ODOMETER_MEDIAMARKER_COUNT_TWO",
+            "type": "STRING"
+          },
+          {
+            "name": "LABEL_LENGTH",
+            "type": "STRING"
+          },
+          {
+            "name": "PRODUCT_NAME",
+            "type": "STRING"
+          },
+          {
+            "name": "PORT_STATUS",
+            "type": "STRING"
+          },
+          {
+            "name": "COMPANY_ABBREVIATION",
+            "type": "STRING"
+          },
+          {
+            "name": "ADDRESS",
+            "type": "STRING"
+          },
+          {
+            "name": "FIRMWARE_VER",
+            "type": "STRING"
+          },
+          {
+            "name": "LABEL_WIDTH",
+            "type": "STRING"
+          },
+          {
+            "name": "DARKNESS",
+            "type": "STRING"
+          },
+          {
+            "name": "NUMBER_LABELS_QUEUED",
+            "type": "STRING"
+          },
+          {
+            "name": "LOCATION",
+            "type": "STRING"
+          },
+          {
+            "name": "LINK_OS_MINOR_VER",
+            "type": "STRING"
+          },
+          {
+            "name": "ODOMETER_MEDIAMARKER_COUNT_ONE",
+            "type": "STRING"
+          },
+          {
+            "name": "ZBI_ENABLED",
+            "type": "STRING"
+          },
+          {
+            "name": "ZBI_STATE",
+            "type": "STRING"
+          },
+          {
+            "name": "ACTIVE_NETWORK_INTERFACE",
+            "type": "STRING"
+          },
+          {
+            "name": "SERIAL_NUMBER",
+            "type": "STRING"
+          },
+          {
+            "name": "PRIMARY_LANGUAGE",
+            "type": "STRING"
+          },
+          {
+            "name": "IP_ACQUISITION_PROTOCOL",
+            "type": "STRING"
+          },
+          {
+            "name": "AVAILABLE_NETWORK_PROTOCOLS",
+            "type": "STRING"
+          },
+          {
+            "name": "PRODUCT_NUMBER",
+            "type": "STRING"
+          },
+          {
+            "name": "ADVANCED_DISCOVERY_VER",
+            "type": "STRING"
+          },
+          {
+            "name": "PORT_NAME",
+            "type": "STRING"
+          },
+          {
+            "name": "SECONDARY_PRINTER_LANGUAGE",
+            "type": "STRING"
+          },
+          {
+            "name": "PRINT_HEAD_WIDTH",
+            "type": "STRING"
+          },
+          {
+            "name": "PRINT_MODE",
+            "type": "STRING"
+          },
+          {
+            "name": "LINK_OS_MAJOR_VER",
+            "type": "STRING"
+          },
+          {
+            "name": "PRINT_METHOD",
+            "type": "STRING"
+          },
+          {
+            "name": "AVS_INI_VER",
+            "type": "STRING"
+          },
+          {
+            "name": "DNS_DOMAIN",
+            "type": "STRING"
+          },
+          {
+            "name": "DISCOVERY_VER",
+            "type": "STRING"
+          },
+          {
+            "name": "DOTS_PER_MM",
+            "type": "STRING"
+          },
+          {
+            "name": "DNS_NAME",
+            "type": "STRING"
+          },
+          {
+            "name": "AVAILABLE_INTERFACES",
+            "type": "STRING"
+          },
+          {
+            "name": "NUMBER_LABELS_REMAIN_IN_BATCH",
+            "type": "STRING"
+          },
+          {
+            "name": "DOTS_PER_ROW",
+            "type": "STRING"
+          },
+          {
+            "name": "ZBI_MINOR_VER",
+            "type": "STRING"
+          }
+        ]
+      }
+    ]
+  }
+]

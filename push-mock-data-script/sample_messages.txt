@@ -1,0 +1,3 @@
+{"_m":{"_c":"","_o":"<owner/tenant>","_e":"<entity id, e.g. device id, must be unique per owner>","_id":"","_et":"","_mt":"m1"},"_p":{"field1":""}}
+{"_m":{"_c":"","_o":"<owner/tenant>","_e":"<entity id, e.g. device id, must be unique per owner>","_id":"","_et":"","_mt":"m2"},"_p":{"address":[{"field1":"", "field2":""},{"field1":"1", "field2":"1"}]}}
+{"_m":{"_c":"","_o":"<owner/tenant>","_e":"<entity id, e.g. device id, must be unique per owner>","_id":"","_et":"","_mt":"m3"},"_p":{"address":[{"field1":"", "field2":""},{"field1":"1", "field2":"1"},{"field1":"3", "field2":"3"}],"field3":"3"}}

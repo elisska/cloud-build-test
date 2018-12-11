@@ -1,0 +1,36 @@
+[{
+    "mode": "REQUIRED",
+    "name": "_o",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "_e",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "_id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "_et",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "_mt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "f1",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "f2",
+    "type": "STRING"
+  }
+]

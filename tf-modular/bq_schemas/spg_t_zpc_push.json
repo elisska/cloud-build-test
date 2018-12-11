@@ -1,0 +1,87 @@
+[
+  {
+    "name": "_c",
+    "type": "STRING"
+  },
+  {
+    "name": "_o",
+    "type": "STRING"
+  },
+  {
+    "name": "_e",
+    "type": "STRING"
+  },
+  {
+    "name": "_id",
+    "type": "INT64"
+  },
+  {
+    "name": "_et",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "_mt",
+    "type": "STRING"
+  },
+  {
+    "name": "_p",
+    "type": "RECORD",
+    "fields":[
+      {
+        "name": "server_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "addresses",
+        "type": "STRING",
+        "mode": "REPEATED"
+      },
+      {
+        "name": "unique_id",
+        "type": "STRING"
+      },
+      {
+        "name": "domain",
+        "type": "STRING"
+      },
+      {
+        "name": "model",
+        "type": "STRING"
+      },
+      {
+        "name": "timestamp_inc",
+        "type": "INT64"
+      },
+      {
+        "name": "tenant",
+        "type": "STRING"
+      },
+      {
+        "name": "weblink_zebra_connector_version",
+        "type": "STRING"
+      },
+      {
+        "name": "push",
+        "type": "RECORD",
+        "fields": [
+          {
+            "name": "print_tone",
+            "type": "STRING"
+          },
+          {
+            "name": "media_speed",
+            "type": "STRING"
+          },
+          {
+            "name": "print_tone_zpl",
+            "type": "STRING"
+          },
+          {
+            "name": "zpl_label_length",
+            "type": "STRING"
+          }
+        ]
+      }
+    ]
+  }
+]
